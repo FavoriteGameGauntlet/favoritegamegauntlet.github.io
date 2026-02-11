@@ -1,3 +1,16 @@
-theme: jekyll-theme-minimal
+theme: minima
 title: FGG Wars Правила
 description: Правила для игровой системы Favorite Game Gauntlet
+
+header_pages:
+  - index.md
+  - Квесты.md
+  - Колесо.md
+  - Перки.md
+  - Победа.md
+  - Предметы.md
+  - Список_желаемого.md
+  - Таймер.md
+  - Текущая_игра.md
+  - Территория.md
+  - Характеристики.md
