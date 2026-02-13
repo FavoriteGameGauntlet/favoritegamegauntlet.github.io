@@ -1,0 +1,13 @@
+.site-nav .nav-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  align-items: center;
+}
+
+.site-nav .nav-item {
+  display: inline-block;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
