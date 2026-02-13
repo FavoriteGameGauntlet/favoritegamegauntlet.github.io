@@ -6,9 +6,9 @@ title: Правила
 {% assign main_page = site.pages | where: "path", "main.md" | first %}
 
 {% if main_page %}
-<h2>
-    <a href="{{ main_page.url }}">{{ main_page.title }}</a>
-</h2>
+<div class="main-content">
+    {{ main_page.content }}
+</div>
 {% endif %}
 
 <ul>
