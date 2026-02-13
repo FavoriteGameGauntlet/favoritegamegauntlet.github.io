@@ -1,5 +1,4 @@
 ---
-title: Главная
 layout: home
 ---
 
