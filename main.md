@@ -1,5 +1,6 @@
 ---
-layout: home
+title: Главная
+layout: page
 ---
 
 ### О чем эта игра
