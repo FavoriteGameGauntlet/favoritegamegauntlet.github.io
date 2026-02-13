@@ -7,7 +7,7 @@ title: Правила
 
 {% if main_page %}
 <div class="main-content">
-    {{ main_page.content }}
+    {{ main_page.content | markdownify }}
 </div>
 {% endif %}
 
