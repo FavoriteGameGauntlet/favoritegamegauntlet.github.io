@@ -2,13 +2,13 @@ theme: minima
 title: "FGG Wars Правила"
 
 header_pages:
-  - rules/Квесты.md
-  - rules/Колесо.md
-  - rules/Перки.md
   - rules/Победа.md
-  - rules/Предметы.md
-  - rules/Список-желаемого.md
-  - rules/Таймер.md
-  - rules/Текущая-игра.md
   - rules/Территория.md
+  - rules/Текущая-игра.md
+  - rules/Колесо.md
+  - rules/Таймер.md
+  - rules/Квесты.md
+  - rules/Перки.md
+  - rules/Предметы.md
   - rules/Характеристики.md
+  - rules/Список-желаемого.md
