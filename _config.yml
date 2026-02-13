@@ -1,7 +1,7 @@
 theme: minima
 
 header_pages:
-  - index.md
+  - Главная.md
   - Квесты.md
   - Колесо.md
   - Перки.md
