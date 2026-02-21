@@ -1,9 +1,11 @@
-<div class="nav-items">
+<div class="trigger">
+    {%- assign count = 0 -%}
     {%- for path in include.paths -%}
     {%- assign hyperpage = site.pages | where: "path", path | first -%}
-    {%- if hyperpage.title %}
-    {%- if forloop.index == 5 %}<br>{%- endif -%}
-    <a class="nav-item" href="{{ hyperpage.url | relative_url }}">{{ hyperpage.title | escape }}</a>
+    {%- if hyperpage.title -%}
+    {%- assign count = count | plus: 1 -%}
+    {%- if count == 5 %}<br>{%- endif -%}
+    <a class="page-link" href="{{ hyperpage.url | relative_url }}">{{ hyperpage.title | escape }}</a>
     {%- endif -%}
     {%- endfor %}
 </div>
